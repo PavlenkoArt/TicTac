@@ -232,7 +232,7 @@ function cellClick() {
 
     if(checkWin(data)) {
         stat[player] += 1;
-        restart("Выграл: " + player);
+        restart("Выиграл: " + player);
     }else {
         let draw = true;
         for(let i in cell) {
